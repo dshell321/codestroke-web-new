@@ -21,6 +21,17 @@
 }
 
 
+@mixin pad-hor ($value) {
+    padding-left: $value;
+    padding-right: $value;
+}
+
+@mixin pad-vert ($value) {
+    padding-top: $value;
+    padding-bottom: $value;
+}
+
+
 /**
 /// EXTENSIONS
 **/
